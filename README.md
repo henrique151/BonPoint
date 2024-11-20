@@ -14,9 +14,9 @@ Este aplicativo consiste no desenvolvimento de um aplicativo para conectar as co
 ## Como utilizar esse projeto de maneira local:
 
 #### Pré requisitos:
-- Node: versão maior que 18.
+- Node: versão igual ou superior a 18
 - Npm ou similares
-
+- Possuir um emulador de celular instalado na sua máquina ou baixar o aplicativo Expo Go no seu celular
   
 Primeiro clone o repositório:
 ```bash
@@ -31,28 +31,43 @@ Após o clone:
 Após entrar no projeto, execute os dois comandos:
 ```bash
   npm install
-  npm run dev
 ```
 
-Seguindo, basta instalar as dependencias do composer:
+Seguindo, basta instalar o bcrypt:
 ```bash
-  composer install
+  npm install bcrypt
 ```
 
-Por fim, copie o .env.example:
+Depois, execute esse comando:
 ```bash
-  cp .env.example .env
+  cd backend
+```
+
+Em seguida, execute novamente o comando:
+```bash
+  npm install bcrypt
+```
+
+Por fim, execute esse comando:
+```bash
+  node index.mjs
+```
+
+Depois, pressione as seguintes teclas:
+```bash
+  Ctrl + Shift + ``
 ```
 
 Como último método, execute:
 ```bash
- ./bin/vendor/sail up
+  npm start
+  ou
+  npx expo start
 ```
 
-Seu projeto estará disponível em:
-[http://localhost](http://localhost)
+#### No terminal, será exibido um QR Code que você poderá utilizar no seu celular ou com um emulador. 
+#### Pressione a tecla SHIFT + A, selecione o emulador e pressione Enter para abri-lo.
 
 
-## License
 
- [MIT license](https://opensource.org/licenses/MIT).
+
