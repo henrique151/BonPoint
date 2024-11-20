@@ -1,0 +1,26 @@
+export default {
+  BonPoint: {
+    Primaria: "#4175C4",
+    Segundaria: "#A5C5FD",
+    Tercerio: "#658ECE",
+    Quarta: "#C2DCF2",
+    Quinta: "#325A73",
+    Sexta: "#4174C3",
+    Setima: "#003c8d",
+    Oitava: "#004AAD",
+    Nona: "#A5C5FD",
+    Decimo: '#DEE7F5',
+    Decimo_Pri: "#BDCEEA",
+    Cinza: "#121212",
+    Cinza_2: "#333",
+    Cinza_3: "#555",
+    Cinza_4: "#666",
+    Branco: "#fff",
+    Branco_2: "#f5f5f5",
+    Branco_3: "#f0f0f0",
+    Preto: "#000",
+    Preto_2: "#0a0f10",
+    Azul:  "#007bff",
+    Vermelho:  "#921C24",
+  }
+};
