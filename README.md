@@ -1,38 +1,31 @@
-<p align="center">
-    <img src="https://github.com/MarcelSecco1/Inertia-Laravel-React/assets/88053611/cef068da-172f-48e8-8827-8154fc989ed2" heigth="300" width="300">
-</p>
-
 ## Sobre o projeto:
 
-Essa aplicação é um simples CRUD de usuário utilizando tecnologias como o Inertia, unindo o Laravel com o React, sem ser consumindo uma API.
+Este aplicativo consiste no desenvolvimento de um aplicativo para conectar as confeitarias aos organizadores de eventos, como parte do Trabalho de Conclusão de Curso (TCC) do curso de Desenvolvimento de Sistemas na ETEC Zona Leste, em 2024.
 
 ## Tecnologias utilizadas:
 
-- Laravel
-- React
+- React Native
+- NodeJS
 - Typescript
-- TailwindCSS
-- Docker
-- MySQL
-
-Tornando a aplicação extremamente escalável e reutilizável.
+- Firebase
+- APIs
+- Expo
 
 ## Como utilizar esse projeto de maneira local:
 
 #### Pré requisitos:
-- Docker
-- Composer
+- Node: versão maior que 18.
 - Npm ou similares
 
   
-Primeiro clome o repositório:
+Primeiro clone o repositório:
 ```bash
-  git clone https://github.com/MarcelSecco1/Inertia-Laravel-React.git
+  git clone https://github.com/henrique151/BonPoint.git
 ```
 
 Após o clone:
 ```bash
-  cd Inertia-Laravel-React
+  cd BonPoint
 ```
 
 Após entrar no projeto, execute os dois comandos:
