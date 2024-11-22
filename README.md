@@ -28,7 +28,7 @@ Após o clone:
   cd BonPoint
 ```
 
-Após entrar no projeto, execute os dois comandos:
+Após entrar no projeto, execute este comando:
 ```bash
   npm install
 ```
